@@ -1,6 +1,5 @@
 # 우분투16.04 설치
 FROM       ubuntu:16.04
-MAINTAINER subicura@subicura.com
 RUN        apt-get -y update
 
 # 아나콘다3 설치
