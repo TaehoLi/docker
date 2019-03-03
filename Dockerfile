@@ -1,5 +1,4 @@
-ARG VERSION_ID
-FROM ubuntu:${VERSION_ID}
+FROM ubuntu:16.04
 
 # packaging dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
