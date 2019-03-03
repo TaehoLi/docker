@@ -1,4 +1,4 @@
-ARG repository
+ARG repository=nvidia/cuda
 FROM ${repository}:10.0-devel-ubuntu16.04
 LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
 
